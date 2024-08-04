@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+.navbar{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: solid black 1px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.navbar__s1__title{
+    color: blueviolet;
+}
+.navbar__s2{
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border: solid black 1px;
+    width: 60%;
+    border-radius: 25px;
+    display: flex;
+    gap: 15px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__s2 input{
+    width: 80%;
+    border: none;
+    flex-direction: row;
+    font-size: 18px;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+    align-items: center;
+    
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+.categories p{
+    background-color: blueviolet;
+    color: yellow;
+    border-radius: 30px;
+    padding: 10px;
+}
+.sale-image img{
+    width: 100%;
+}
+.recommanded{
+    padding: 10px;
+}
+.recommanded__container{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course__card{
+    width: 250px;
+}
+.course__card img{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+
+}
+.course__card del{
+    padding-left: 15px;
+}
+.Topic{
+    margin: 10px;
+    display: flex; 
+    padding-left: 5px;
+}
+.Topic h3{   
+    border: solid black 1px;    
+    width: 25%;
+    margin: 10px;
+    padding-left: 5px;  
+    display: flex;  
+}
+.Popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__two p{
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+.footer__two h1{
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+.footer__one p{
+    margin: 7px;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one__s2{
+    padding-left: 80px;
+}
+.footer__one__s1{
+    padding-left: 30px;
+}
+.footer__one__s1,.footer__one__s2{
+    padding-top: 29px;
+    padding-bottom: 35px;
+}
+.Topic__one,.Topic__two,.Topic__three,.Topic__four{
+            flex: grow 1; 
+}
