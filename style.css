@@ -125,6 +125,7 @@ body{
         opacity: 1;
         transform: scale(1);
     }
+   
 }
 .recommanded{
     padding: 10px;
@@ -227,6 +228,13 @@ body{
                 .navbar__s4{
                    display:block;
                 }
-
+                .sale-image{
+                    position: relative;
+                }
+            .sale-image__offer{
+                position: absolute;
+                top: 60px;
+                left:20px;                
+            }
     
 }
